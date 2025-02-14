@@ -1,0 +1,65 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8); /* 80% opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .box {
+    background: #1a1a1a; /* Dark gray background for the box */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 350px;
+    width: 100%;
+    color: #f0f0f0; /* Light text for contrast */
+  }
+  
+  .p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Slightly lighter text color */
+  }
+  
+  .button {
+    background-color: #444 !important;  
+    color: #fff !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    margin: 5px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    border-radius: 4px !important;
+    transition: background-color 0.3s ease !important;
+  }
+  
+  .button:hover {
+    background-color: #555; /* Slightly lighter shade on hover */
+  }
+
+  /* Styling for textboxes (input fields) */
+.input {
+  width: 80%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 2px solid #444; /* Dark border */
+  border-radius: 4px;
+  background-color: #2a2a2a; /* Darker background for the input */
+  color: #f0f0f0; /* Light text color */
+  font-size: 16px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus effect for textboxes */
+.input:focus {
+  border-color: #555; /* Lighter border color on focus */
+  background-color: #333; /* Slightly lighter background on focus */
+  outline: none;
+}
